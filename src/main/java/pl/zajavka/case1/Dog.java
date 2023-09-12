@@ -4,4 +4,8 @@ public class Dog extends Animal {
     private String name;
 
     private String owner_name;
+
+    public void sniff() {
+        System.out.println("I'm soo sniffing!");
+    }
 }
